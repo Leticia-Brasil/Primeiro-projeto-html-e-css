@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "monteserrat" , sans-serif;
+    
+}
+
+
+body{
+    color: #263138;
+}
+/* Inicio css Header */
+header{
+    background-color: #E91E63;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+
+}
+
+header a {
+    color: #fff;
+    font-weight: 600;
+    padding: 0 32px;
+    text-decoration: none;
+
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color:rgb(208, 129, 179)
+
+}
+
+
+/*Seção inicial */
+#inicio{    
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 60px 80px 190px 80px;
+  justify-content: center;
+
+}
+
+h1, h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    max-width: 600px;
+    
+}
+
+.paragrafo {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 32px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.botao {
+    background-color: #E91E63;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+
+
+}
+
+.botao2{
+    background-color: transparent;
+    color:#E91E63;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    text-underline-offset: 4px;
+}
+
+.imagem{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+/* Fim da Seção 1 */
+#clinica{
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding: 64px 80px;
+  justify-content: center;
+
+}
+
+#clinica li{
+    margin-bottom: 16px;
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#farmacia {
+    text-align: center ;
+    padding: 64px 80px;
+    justify-content: center;
+}
+#farmacia h2 {
+  max-width: 500px;
+  margin:0 auto;
+}
+
+#farmacia .paragrafo{
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+/*-------Fim da seção farmácia------*/
+
+/* Início Seção Dúvidas*/
+
+#duvidas{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 64px 80px;
+    gap: 64px;
+}
+
+#duvidas .paragrafo{
+    max-width: 600px;
+
+}
+
+.duvida{
+    position: relative;
+}
+
+.duvida h3{
+    border: 2px solid #E91E63;
+    padding: 24px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.duvida img{
+    position:absolute;
+    top: 32px;
+    right:10px;
+}
+
+.duvida p{
+    border-right: 1px solid #E91E63;
+    border-left:1px solid #E91E63 ;
+    border-bottom:1px solid #E91E63 ;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 28px;
+}
+
+footer{
+    background-color: #E91E6340;
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    justify-content: space-between;
+}
+ 
+footer img, footer .titulo{
+    display: block;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+footer p{
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer nav a{
+    display: block;
+    color:#263138;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer nav a:hover{
+    font-weight: 600;
+}
+
+footer p a{
+    color:#263138;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    font-weight: 600;
+}
+
+/*------Fim Rodapé---*/
+
+/* Seção Dev */
+
+#dev{
+    background-color: #263138;
+    color:azure;
+    padding: 24px;
+    text-align: center;
+}
+ #dev a{
+    color:#FB7D44;
+ }
