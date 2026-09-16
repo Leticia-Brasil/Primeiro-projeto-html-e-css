@@ -32,6 +32,10 @@ Apesar de ser um projeto introdutório, ele foi importante para compreender na p
 
 Pretendo continuar aprimorando meus conhecimentos em desenvolvimento web, estudando novas tecnologias e aplicando os conceitos aprendidos em projetos cada vez mais completos.
 
+## 🔗 Acesse o Projeto
+
+Link: https://petscoobleticia.netlify.app/
+
 ## 👩‍💻 Sobre mim
 
 Sou estudante de **Engenharia de Software** e estou construindo meu portfólio por meio de projetos acadêmicos, cursos e experiências práticas em tecnologia.
